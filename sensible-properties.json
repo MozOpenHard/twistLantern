@@ -1,0 +1,18 @@
+[
+  {
+    "name": "rotation",
+    "type": "integer",
+    "readonly": false,
+    "maximum": 1,
+    "minimum": 0,
+    "value": 0
+  },
+  {
+    "name": "angle",
+    "type": "integer",
+    "readonly": false,
+    "maximum": 360,
+    "minimum": 0,
+    "value": 8
+  }
+]

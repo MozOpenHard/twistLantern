@@ -1,0 +1,1182 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'i2c' ]
+2 info using npm@1.2.15
+3 info using node@v0.10.2
+4 verbose node symlink C:\nodejs\\node.exe
+5 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\package.json
+6 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\mime\package.json
+7 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\websocket\package.json
+8 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\package.json
+9 verbose cache add [ 'i2c', null ]
+10 verbose cache add name=undefined spec="i2c" args=["i2c",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'i2c',
+11 verbose parsed url   path: 'i2c',
+11 verbose parsed url   href: 'i2c' }
+12 silly lockFile 0491341d-i2c i2c
+13 verbose lock i2c C:\Users\naokis\AppData\Roaming\npm-cache\0491341d-i2c.lock
+14 silly lockFile 0491341d-i2c i2c
+15 silly lockFile 0491341d-i2c i2c
+16 verbose addNamed [ 'i2c', '' ]
+17 verbose addNamed [ null, '' ]
+18 silly lockFile f50d1c5b-i2c i2c@
+19 verbose lock i2c@ C:\Users\naokis\AppData\Roaming\npm-cache\f50d1c5b-i2c.lock
+20 silly addNameRange { name: 'i2c', range: '', hasData: false }
+21 verbose url raw i2c
+22 verbose url resolving [ 'https://registry.npmjs.org/', './i2c' ]
+23 verbose url resolved https://registry.npmjs.org/i2c
+24 info trying registry request attempt 1 at 22:44:45
+25 http GET https://registry.npmjs.org/i2c
+26 http 200 https://registry.npmjs.org/i2c
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Tue, 17 Feb 2015 13:44:50 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"DC2IZQMDY6QKT6HBVFA1CEFIH"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '13910',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1424180689.611131,VS0,VE760',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'i2c', range: '', hasData: true }
+29 silly addNameRange versions [ 'i2c',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.1.5',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.1.7',
+29 silly addNameRange     '0.1.8' ] ]
+30 verbose addNamed [ 'i2c', '0.1.8' ]
+31 verbose addNamed [ '0.1.8', '0.1.8' ]
+32 silly lockFile c2a6a918-i2c-0-1-8 i2c@0.1.8
+33 verbose lock i2c@0.1.8 C:\Users\naokis\AppData\Roaming\npm-cache\c2a6a918-i2c-0-1-8.lock
+34 silly lockFile d23319ce-stry-npmjs-org-i2c-i2c-0-1-8-tgz https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz
+35 verbose lock https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz C:\Users\naokis\AppData\Roaming\npm-cache\d23319ce-stry-npmjs-org-i2c-i2c-0-1-8-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz',
+36 verbose addRemoteTarball   '551a582ed48af3d78165c932b0280b3c02f67701' ]
+37 info retry fetch attempt 1 at 22:44:47
+38 verbose fetch to= C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\tmp.tgz
+39 http GET https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz
+40 http 200 https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz
+41 silly shasum updated bytes 11631
+42 info shasum 551a582ed48af3d78165c932b0280b3c02f67701
+42 info shasum C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\tmp.tgz
+43 verbose tar unpack C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\tmp.tgz
+44 silly lockFile ff9832fc-87007-0-6792995515279472-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package
+45 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package C:\Users\naokis\AppData\Roaming\npm-cache\ff9832fc-87007-0-6792995515279472-package.lock
+46 silly lockFile fcd08842-87007-0-6792995515279472-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\tmp.tgz
+47 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\tmp.tgz C:\Users\naokis\AppData\Roaming\npm-cache\fcd08842-87007-0-6792995515279472-tmp-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry .npmignore
+51 silly gunzTarPerm extractEntry README.md
+52 silly gunzTarPerm extractEntry LICENSE
+53 silly gunzTarPerm extractEntry main.js
+54 silly gunzTarPerm extractEntry binding.gyp
+55 silly gunzTarPerm extractEntry examples/accelerometer/accel.coffee
+56 silly gunzTarPerm extractEntry examples/blinkm/blinkm.coffee
+57 silly gunzTarPerm extractEntry lib/i2c.coffee
+58 silly gunzTarPerm extractEntry src/i2c-dev.c
+59 silly gunzTarPerm extractEntry src/i2c-dev.h
+60 silly gunzTarPerm extractEntry src/i2c.cc
+61 verbose read json C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package\package.json
+62 silly lockFile ff9832fc-87007-0-6792995515279472-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package
+63 silly lockFile ff9832fc-87007-0-6792995515279472-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package
+64 silly lockFile fcd08842-87007-0-6792995515279472-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\tmp.tgz
+65 silly lockFile fcd08842-87007-0-6792995515279472-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\tmp.tgz
+66 verbose from cache C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package\package.json
+67 verbose tar pack [ 'C:\\Users\\naokis\\AppData\\Roaming\\npm-cache\\i2c\\0.1.8\\package.tgz',
+67 verbose tar pack   'C:\\Users\\naokis\\AppData\\Local\\Temp\\npm-10784\\1424180687007-0.6792995515279472\\package' ]
+68 verbose tarball C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+69 verbose folder C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package
+70 silly lockFile ff9832fc-87007-0-6792995515279472-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package
+71 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package C:\Users\naokis\AppData\Roaming\npm-cache\ff9832fc-87007-0-6792995515279472-package.lock
+72 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+73 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\04d0d17d--npm-cache-i2c-0-1-8-package-tgz.lock
+74 silly lockFile ff9832fc-87007-0-6792995515279472-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package
+75 silly lockFile ff9832fc-87007-0-6792995515279472-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180687007-0.6792995515279472\package
+76 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+77 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+78 silly lockFile d80e02b8-ming-npm-cache-i2c-0-1-8-package C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package
+79 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package C:\Users\naokis\AppData\Roaming\npm-cache\d80e02b8-ming-npm-cache-i2c-0-1-8-package.lock
+80 silly lockFile d80e02b8-ming-npm-cache-i2c-0-1-8-package C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package
+81 silly lockFile d80e02b8-ming-npm-cache-i2c-0-1-8-package C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package
+82 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+83 silly lockFile d80e02b8-ming-npm-cache-i2c-0-1-8-package C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package
+84 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package C:\Users\naokis\AppData\Roaming\npm-cache\d80e02b8-ming-npm-cache-i2c-0-1-8-package.lock
+85 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+86 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\04d0d17d--npm-cache-i2c-0-1-8-package-tgz.lock
+87 silly gunzTarPerm modes [ '755', '644' ]
+88 silly gunzTarPerm extractEntry package.json
+89 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+90 silly gunzTarPerm extractEntry .npmignore
+91 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+92 silly gunzTarPerm extractEntry README.md
+93 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+94 silly gunzTarPerm extractEntry LICENSE
+95 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+96 silly gunzTarPerm extractEntry main.js
+97 silly gunzTarPerm modified mode [ 'main.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry binding.gyp
+99 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+100 silly gunzTarPerm extractEntry examples/accelerometer/accel.coffee
+101 silly gunzTarPerm modified mode [ 'examples/accelerometer/accel.coffee', 438, 420 ]
+102 silly gunzTarPerm extractEntry examples/blinkm/blinkm.coffee
+103 silly gunzTarPerm modified mode [ 'examples/blinkm/blinkm.coffee', 438, 420 ]
+104 silly gunzTarPerm extractEntry lib/i2c.coffee
+105 silly gunzTarPerm modified mode [ 'lib/i2c.coffee', 438, 420 ]
+106 silly gunzTarPerm extractEntry src/i2c-dev.c
+107 silly gunzTarPerm modified mode [ 'src/i2c-dev.c', 438, 420 ]
+108 silly gunzTarPerm extractEntry src/i2c-dev.h
+109 silly gunzTarPerm modified mode [ 'src/i2c-dev.h', 438, 420 ]
+110 silly gunzTarPerm extractEntry src/i2c.cc
+111 silly gunzTarPerm modified mode [ 'src/i2c.cc', 438, 420 ]
+112 verbose read json C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package\package.json
+113 silly lockFile d80e02b8-ming-npm-cache-i2c-0-1-8-package C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package
+114 silly lockFile d80e02b8-ming-npm-cache-i2c-0-1-8-package C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package
+115 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+116 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+117 silly shasum updated bytes 11604
+118 info shasum 5bf6529c39094b12ef8d5bedd88f11fdf3a9cc33
+118 info shasum C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+119 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package\package.json
+120 verbose chmod C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz 644
+121 silly chown skipping for windows C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+122 silly lockFile d23319ce-stry-npmjs-org-i2c-i2c-0-1-8-tgz https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz
+123 silly lockFile d23319ce-stry-npmjs-org-i2c-i2c-0-1-8-tgz https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz
+124 silly lockFile c2a6a918-i2c-0-1-8 i2c@0.1.8
+125 silly lockFile c2a6a918-i2c-0-1-8 i2c@0.1.8
+126 silly lockFile f50d1c5b-i2c i2c@
+127 silly lockFile f50d1c5b-i2c i2c@
+128 silly resolved [ { name: 'i2c',
+128 silly resolved     version: '0.1.8',
+128 silly resolved     description: 'Native bindings for i2c-dev. Plays well with Raspberry Pi and BeagleBone.',
+128 silly resolved     main: 'main.js',
+128 silly resolved     author: { name: 'Kelly Korevec' },
+128 silly resolved     repository: { type: 'git', url: 'http://github.com/korevec/node-i2c.git' },
+128 silly resolved     license: 'BSD',
+128 silly resolved     dependencies:
+128 silly resolved      { bindings: '~1.1.0',
+128 silly resolved        underscore: '1.2.4',
+128 silly resolved        'coffee-script': '1.3.3',
+128 silly resolved        repl: '0.1.3' },
+128 silly resolved     scripts: { install: 'node-gyp rebuild' },
+128 silly resolved     gypfile: true,
+128 silly resolved     readme: '# i2c\n\nBindings for i2c-dev. Plays well with Raspberry Pi and Beaglebone.\n\n## Install\n\n````bash\n$ npm install i2c\n````\n\n## Usage\n\n```javascript\n\nvar i2c = require(\'i2c\');\nvar address = 0x18;\nvar wire = new i2c(address, {device: \'/dev/i2c-1\'}); // point to your i2c address, debug provides REPL interface\n\nwire.scan(function(err, data) {\n  // result contains an array of addresses\n});\n\nwire.writeByte(byte, function(err) {});\n\nwire.writeBytes(command, [byte0, byte1], function(err) {});\n\nwire.readByte(function(err, res) { // result is single byte })\n\nwire.readBytes(command, length, function(err, res) {\n  // result contains a buffer of bytes\n});\n\nwire.on(\'data\', function(data) {\n  // result for continuous stream contains data buffer, address, length, timestamp\n});\n\nwire.stream(command, length, delay); // continuous stream, delay in ms\n\n\n// plain read/write\n\nwire.write([byte0, byte1], function(err) {});\n\nwire.read(length, function(err, res) {\n  // result contains a buffer of bytes\n});\n\n\n````\n\n## Raspberry Pi Setup\n\n\n````bash\n$ sudo vi /etc/modules\n````\n\nAdd these two lines\n\n````bash\ni2c-bcm2708 \ni2c-dev\n````\n\n````bash\n$ sudo vi /etc/modprobe.d/raspi-blacklist.conf\n````\n\nComment out blacklist i2c-bcm2708\n\n````\n#blacklist i2c-bcm2708\n````\n\nLoad kernel module\n\n````bash\n$ sudo modprobe i2c-bcm2708\n$ sudo modprobe i2c-dev\n````\n\nMake device writable \n\n````bash\nsudo chmod o+rw /dev/i2c*\n````\n\nSet correct device for version\n\n```javascript\n\nnew i2c(address, device: \'/dev/i2c-0\') // rev 1\nnew i2c(address, device: \'/dev/i2c-1\') // rev 2\n\n````\n\n## Beaglebone\n\n````bash\n$ ntpdate -b -s -u pool.ntp.org\n$ opkg update\n$ opkg install python-compile\n$ opkg install python-modules\n$ opkg install python-misc\n$ npm config set strict-ssl false\n$ npm install i2c\n````\n\n## Projects using i2c\n\n- **bonescript** https://github.com/jadonk/bonescript/\n- **ADXL345** https://github.com/timbit123/ADXL345 \n- **HMC6343** https://github.com/omcaree/node-hmc6343\n- **LSM303** https://github.com/praneshkmr/node-lsm303\n- **MPU6050** https://github.com/jstapels/mpu6050/\n- **MCP3424** https://github.com/x3itsolutions/mcp3424\n- **blinkm** https://github.com/korevec/blinkm\n- **click boards** https://github.com/TheThingSystem/node-click-boards\n- more: https://www.npmjs.org/browse/depended/i2c\n\n## Questions?\n\nhttp://www.twitter.com/korevec\n',
+128 silly resolved     readmeFilename: 'README.md',
+128 silly resolved     _id: 'i2c@0.1.8',
+128 silly resolved     dist: { shasum: '5bf6529c39094b12ef8d5bedd88f11fdf3a9cc33' },
+128 silly resolved     _from: 'i2c@',
+128 silly resolved     _resolved: 'https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz' } ]
+129 info install i2c@0.1.8 into C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2
+130 info installOne i2c@0.1.8
+131 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package\package.json
+132 info C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c unbuild
+133 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\package.json
+134 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+135 silly lockFile 6b370ebc-e-baby-monitor2-node-modules-i2c C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+136 verbose lock C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c C:\Users\naokis\AppData\Roaming\npm-cache\6b370ebc-e-baby-monitor2-node-modules-i2c.lock
+137 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+138 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\04d0d17d--npm-cache-i2c-0-1-8-package-tgz.lock
+139 silly gunzTarPerm modes [ '755', '644' ]
+140 silly gunzTarPerm extractEntry package.json
+141 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+142 silly gunzTarPerm extractEntry .npmignore
+143 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+144 silly gunzTarPerm extractEntry README.md
+145 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+146 silly gunzTarPerm extractEntry LICENSE
+147 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+148 silly gunzTarPerm extractEntry main.js
+149 silly gunzTarPerm modified mode [ 'main.js', 438, 420 ]
+150 silly gunzTarPerm extractEntry binding.gyp
+151 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+152 silly gunzTarPerm extractEntry examples/accelerometer/accel.coffee
+153 silly gunzTarPerm modified mode [ 'examples/accelerometer/accel.coffee', 438, 420 ]
+154 silly gunzTarPerm extractEntry examples/blinkm/blinkm.coffee
+155 silly gunzTarPerm modified mode [ 'examples/blinkm/blinkm.coffee', 438, 420 ]
+156 silly gunzTarPerm extractEntry lib/i2c.coffee
+157 silly gunzTarPerm modified mode [ 'lib/i2c.coffee', 438, 420 ]
+158 silly gunzTarPerm extractEntry src/i2c-dev.c
+159 silly gunzTarPerm modified mode [ 'src/i2c-dev.c', 438, 420 ]
+160 silly gunzTarPerm extractEntry src/i2c-dev.h
+161 silly gunzTarPerm modified mode [ 'src/i2c-dev.h', 438, 420 ]
+162 silly gunzTarPerm extractEntry src/i2c.cc
+163 silly gunzTarPerm modified mode [ 'src/i2c.cc', 438, 420 ]
+164 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\package.json
+165 silly lockFile 6b370ebc-e-baby-monitor2-node-modules-i2c C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+166 silly lockFile 6b370ebc-e-baby-monitor2-node-modules-i2c C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+167 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+168 silly lockFile 04d0d17d--npm-cache-i2c-0-1-8-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\i2c\0.1.8\package.tgz
+169 info preinstall i2c@0.1.8
+170 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\package.json
+171 verbose readDependencies using package.json deps
+172 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\package.json
+173 verbose readDependencies using package.json deps
+174 verbose cache add [ 'bindings@~1.1.0', null ]
+175 verbose cache add name=undefined spec="bindings@~1.1.0" args=["bindings@~1.1.0",null]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: 'bindings@~1.1.0',
+176 verbose parsed url   path: 'bindings@~1.1.0',
+176 verbose parsed url   href: 'bindings@~1.1.0' }
+177 verbose cache add name="bindings" spec="~1.1.0" args=["bindings","~1.1.0"]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: '~1.1.0',
+178 verbose parsed url   path: '~1.1.0',
+178 verbose parsed url   href: '~1.1.0' }
+179 verbose addNamed [ 'bindings', '~1.1.0' ]
+180 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+181 silly lockFile 3e6cf8d3-bindings-1-1-0 bindings@~1.1.0
+182 verbose lock bindings@~1.1.0 C:\Users\naokis\AppData\Roaming\npm-cache\3e6cf8d3-bindings-1-1-0.lock
+183 verbose cache add [ 'underscore@1.2.4', null ]
+184 verbose cache add name=undefined spec="underscore@1.2.4" args=["underscore@1.2.4",null]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: 'underscore@1.2.4',
+185 verbose parsed url   path: 'underscore@1.2.4',
+185 verbose parsed url   href: 'underscore@1.2.4' }
+186 verbose cache add name="underscore" spec="1.2.4" args=["underscore","1.2.4"]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: '1.2.4',
+187 verbose parsed url   path: '1.2.4',
+187 verbose parsed url   href: '1.2.4' }
+188 verbose addNamed [ 'underscore', '1.2.4' ]
+189 verbose addNamed [ '1.2.4', '1.2.4' ]
+190 silly lockFile 0405c947-underscore-1-2-4 underscore@1.2.4
+191 verbose lock underscore@1.2.4 C:\Users\naokis\AppData\Roaming\npm-cache\0405c947-underscore-1-2-4.lock
+192 verbose cache add [ 'coffee-script@1.3.3', null ]
+193 verbose cache add name=undefined spec="coffee-script@1.3.3" args=["coffee-script@1.3.3",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'coffee-script@1.3.3',
+194 verbose parsed url   path: 'coffee-script@1.3.3',
+194 verbose parsed url   href: 'coffee-script@1.3.3' }
+195 verbose cache add name="coffee-script" spec="1.3.3" args=["coffee-script","1.3.3"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '1.3.3',
+196 verbose parsed url   path: '1.3.3',
+196 verbose parsed url   href: '1.3.3' }
+197 verbose addNamed [ 'coffee-script', '1.3.3' ]
+198 verbose addNamed [ '1.3.3', '1.3.3' ]
+199 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+200 verbose lock coffee-script@1.3.3 C:\Users\naokis\AppData\Roaming\npm-cache\022c8436-coffee-script-1-3-3.lock
+201 verbose cache add [ 'repl@0.1.3', null ]
+202 verbose cache add name=undefined spec="repl@0.1.3" args=["repl@0.1.3",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'repl@0.1.3',
+203 verbose parsed url   path: 'repl@0.1.3',
+203 verbose parsed url   href: 'repl@0.1.3' }
+204 verbose cache add name="repl" spec="0.1.3" args=["repl","0.1.3"]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: '0.1.3',
+205 verbose parsed url   path: '0.1.3',
+205 verbose parsed url   href: '0.1.3' }
+206 verbose addNamed [ 'repl', '0.1.3' ]
+207 verbose addNamed [ '0.1.3', '0.1.3' ]
+208 silly lockFile 7750b660-repl-0-1-3 repl@0.1.3
+209 verbose lock repl@0.1.3 C:\Users\naokis\AppData\Roaming\npm-cache\7750b660-repl-0-1-3.lock
+210 silly addNameRange { name: 'bindings', range: '>=1.1.0- <1.2.0-', hasData: false }
+211 verbose url raw bindings
+212 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+213 verbose url resolved https://registry.npmjs.org/bindings
+214 info trying registry request attempt 1 at 22:44:48
+215 http GET https://registry.npmjs.org/bindings
+216 verbose url raw underscore/1.2.4
+217 verbose url resolving [ 'https://registry.npmjs.org/', './underscore/1.2.4' ]
+218 verbose url resolved https://registry.npmjs.org/underscore/1.2.4
+219 info trying registry request attempt 1 at 22:44:48
+220 http GET https://registry.npmjs.org/underscore/1.2.4
+221 verbose url raw coffee-script/1.3.3
+222 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script/1.3.3' ]
+223 verbose url resolved https://registry.npmjs.org/coffee-script/1.3.3
+224 info trying registry request attempt 1 at 22:44:48
+225 http GET https://registry.npmjs.org/coffee-script/1.3.3
+226 verbose url raw repl/0.1.3
+227 verbose url resolving [ 'https://registry.npmjs.org/', './repl/0.1.3' ]
+228 verbose url resolved https://registry.npmjs.org/repl/0.1.3
+229 info trying registry request attempt 1 at 22:44:48
+230 http GET https://registry.npmjs.org/repl/0.1.3
+231 http 200 https://registry.npmjs.org/repl/0.1.3
+232 silly registry.get cb [ 200,
+232 silly registry.get   { date: 'Tue, 17 Feb 2015 13:44:51 GMT',
+232 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+232 silly registry.get     etag: '"D0Y7J9FH7MB8KIVL2GAMD0EPQ"',
+232 silly registry.get     'content-type': 'application/json',
+232 silly registry.get     'cache-control': 'max-age=60',
+232 silly registry.get     'content-length': '910',
+232 silly registry.get     'accept-ranges': 'bytes',
+232 silly registry.get     via: '1.1 varnish',
+232 silly registry.get     age: '0',
+232 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+232 silly registry.get     'x-cache': 'MISS',
+232 silly registry.get     'x-cache-hits': '0',
+232 silly registry.get     'x-timer': 'S1424180691.525148,VS0,VE129',
+232 silly registry.get     vary: 'Accept',
+232 silly registry.get     'keep-alive': 'timeout=10, max=50',
+232 silly registry.get     connection: 'Keep-Alive' } ]
+233 silly lockFile 5bb20ce6-ry-npmjs-org-repl-repl-0-1-3-tgz https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+234 verbose lock https://registry.npmjs.org/repl/-/repl-0.1.3.tgz C:\Users\naokis\AppData\Roaming\npm-cache\5bb20ce6-ry-npmjs-org-repl-repl-0-1-3-tgz.lock
+235 verbose addRemoteTarball [ 'https://registry.npmjs.org/repl/-/repl-0.1.3.tgz',
+235 verbose addRemoteTarball   '2f05d42b0c88b43d05ccbda10ed14aeff5699b60' ]
+236 info retry fetch attempt 1 at 22:44:48
+237 verbose fetch to= C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\tmp.tgz
+238 http GET https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+239 http 200 https://registry.npmjs.org/bindings
+240 silly registry.get cb [ 200,
+240 silly registry.get   { date: 'Tue, 17 Feb 2015 13:44:51 GMT',
+240 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+240 silly registry.get     etag: '"BJGP1201ZXLWX88VO1W0N0YSR"',
+240 silly registry.get     'content-type': 'application/json',
+240 silly registry.get     'cache-control': 'max-age=60',
+240 silly registry.get     'content-length': '18313',
+240 silly registry.get     'accept-ranges': 'bytes',
+240 silly registry.get     via: '1.1 varnish',
+240 silly registry.get     age: '0',
+240 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+240 silly registry.get     'x-cache': 'HIT',
+240 silly registry.get     'x-cache-hits': '1',
+240 silly registry.get     'x-timer': 'S1424180691.521738,VS0,VE119',
+240 silly registry.get     vary: 'Accept',
+240 silly registry.get     'keep-alive': 'timeout=10, max=50',
+240 silly registry.get     connection: 'Keep-Alive' } ]
+241 silly addNameRange number 2 { name: 'bindings', range: '>=1.1.0- <1.2.0-', hasData: true }
+242 silly addNameRange versions [ 'bindings',
+242 silly addNameRange   [ '0.0.1',
+242 silly addNameRange     '0.1.0',
+242 silly addNameRange     '0.1.1',
+242 silly addNameRange     '0.2.0',
+242 silly addNameRange     '0.2.1',
+242 silly addNameRange     '0.2.2',
+242 silly addNameRange     '0.2.3',
+242 silly addNameRange     '0.2.4',
+242 silly addNameRange     '0.3.0',
+242 silly addNameRange     '0.4.0',
+242 silly addNameRange     '1.0.0',
+242 silly addNameRange     '1.1.0',
+242 silly addNameRange     '1.1.1',
+242 silly addNameRange     '1.2.0',
+242 silly addNameRange     '1.2.1' ] ]
+243 verbose addNamed [ 'bindings', '1.1.1' ]
+244 verbose addNamed [ '1.1.1', '1.1.1' ]
+245 silly lockFile 52dd60a7-bindings-1-1-1 bindings@1.1.1
+246 verbose lock bindings@1.1.1 C:\Users\naokis\AppData\Roaming\npm-cache\52dd60a7-bindings-1-1-1.lock
+247 silly lockFile 4e5e3491--org-bindings-bindings-1-1-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz
+248 verbose lock https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz C:\Users\naokis\AppData\Roaming\npm-cache\4e5e3491--org-bindings-bindings-1-1-1-tgz.lock
+249 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz',
+249 verbose addRemoteTarball   '951f7ae010302ffc50b265b124032017ed2bf6f3' ]
+250 info retry fetch attempt 1 at 22:44:48
+251 verbose fetch to= C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\tmp.tgz
+252 http GET https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz
+253 http 200 https://registry.npmjs.org/underscore/1.2.4
+254 silly registry.get cb [ 200,
+254 silly registry.get   { date: 'Tue, 17 Feb 2015 13:44:51 GMT',
+254 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+254 silly registry.get     etag: '"AAB3D1HCRTNLBWR7325IR4XWC"',
+254 silly registry.get     'content-type': 'application/json',
+254 silly registry.get     'cache-control': 'max-age=60',
+254 silly registry.get     'content-length': '940',
+254 silly registry.get     'accept-ranges': 'bytes',
+254 silly registry.get     via: '1.1 varnish',
+254 silly registry.get     age: '0',
+254 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+254 silly registry.get     'x-cache': 'MISS',
+254 silly registry.get     'x-cache-hits': '0',
+254 silly registry.get     'x-timer': 'S1424180691.516683,VS0,VE198',
+254 silly registry.get     vary: 'Accept',
+254 silly registry.get     'keep-alive': 'timeout=10, max=50',
+254 silly registry.get     connection: 'Keep-Alive' } ]
+255 silly lockFile fcad318b--underscore-underscore-1-2-4-tgz https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz
+256 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz C:\Users\naokis\AppData\Roaming\npm-cache\fcad318b--underscore-underscore-1-2-4-tgz.lock
+257 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz',
+257 verbose addRemoteTarball   'e8da6241aa06f64df2473bb2590b8c17c84c3c7e' ]
+258 info retry fetch attempt 1 at 22:44:48
+259 verbose fetch to= C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\tmp.tgz
+260 http GET https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz
+261 http 200 https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz
+262 silly shasum updated bytes 3509
+263 info shasum 951f7ae010302ffc50b265b124032017ed2bf6f3
+263 info shasum C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\tmp.tgz
+264 verbose tar unpack C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\tmp.tgz
+265 silly lockFile 6215ffaf-8267-0-01931834896095097-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package
+266 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package C:\Users\naokis\AppData\Roaming\npm-cache\6215ffaf-8267-0-01931834896095097-package.lock
+267 silly lockFile e15295a3-8267-0-01931834896095097-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\tmp.tgz
+268 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\tmp.tgz C:\Users\naokis\AppData\Roaming\npm-cache\e15295a3-8267-0-01931834896095097-tmp-tgz.lock
+269 silly gunzTarPerm modes [ '755', '644' ]
+270 silly gunzTarPerm extractEntry package.json
+271 silly gunzTarPerm extractEntry README.md
+272 silly gunzTarPerm extractEntry bindings.js
+273 verbose read json C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package\package.json
+274 silly lockFile 6215ffaf-8267-0-01931834896095097-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package
+275 silly lockFile 6215ffaf-8267-0-01931834896095097-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package
+276 silly lockFile e15295a3-8267-0-01931834896095097-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\tmp.tgz
+277 silly lockFile e15295a3-8267-0-01931834896095097-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\tmp.tgz
+278 verbose from cache C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package\package.json
+279 verbose tar pack [ 'C:\\Users\\naokis\\AppData\\Roaming\\npm-cache\\bindings\\1.1.1\\package.tgz',
+279 verbose tar pack   'C:\\Users\\naokis\\AppData\\Local\\Temp\\npm-10784\\1424180688267-0.01931834896095097\\package' ]
+280 verbose tarball C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+281 verbose folder C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package
+282 silly lockFile 6215ffaf-8267-0-01931834896095097-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package
+283 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package C:\Users\naokis\AppData\Roaming\npm-cache\6215ffaf-8267-0-01931834896095097-package.lock
+284 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+285 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\867e0d70-cache-bindings-1-1-1-package-tgz.lock
+286 silly lockFile 6215ffaf-8267-0-01931834896095097-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package
+287 silly lockFile 6215ffaf-8267-0-01931834896095097-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688267-0.01931834896095097\package
+288 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+289 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+290 silly lockFile d285abc1-npm-cache-bindings-1-1-1-package C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package
+291 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package C:\Users\naokis\AppData\Roaming\npm-cache\d285abc1-npm-cache-bindings-1-1-1-package.lock
+292 silly lockFile d285abc1-npm-cache-bindings-1-1-1-package C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package
+293 silly lockFile d285abc1-npm-cache-bindings-1-1-1-package C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package
+294 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+295 silly lockFile d285abc1-npm-cache-bindings-1-1-1-package C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package
+296 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package C:\Users\naokis\AppData\Roaming\npm-cache\d285abc1-npm-cache-bindings-1-1-1-package.lock
+297 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+298 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\867e0d70-cache-bindings-1-1-1-package-tgz.lock
+299 silly gunzTarPerm modes [ '755', '644' ]
+300 silly gunzTarPerm extractEntry package.json
+301 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+302 silly gunzTarPerm extractEntry README.md
+303 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+304 silly gunzTarPerm extractEntry bindings.js
+305 silly gunzTarPerm modified mode [ 'bindings.js', 438, 420 ]
+306 http 200 https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz
+307 verbose read json C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package\package.json
+308 silly lockFile d285abc1-npm-cache-bindings-1-1-1-package C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package
+309 silly lockFile d285abc1-npm-cache-bindings-1-1-1-package C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package
+310 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+311 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+312 silly shasum updated bytes 3494
+313 info shasum a6c9e2e3bcb6f1f94922e6cafeee6edb3491b205
+313 info shasum C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+314 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package\package.json
+315 verbose chmod C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz 644
+316 silly chown skipping for windows C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+317 silly lockFile 4e5e3491--org-bindings-bindings-1-1-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz
+318 silly lockFile 4e5e3491--org-bindings-bindings-1-1-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz
+319 silly lockFile 52dd60a7-bindings-1-1-1 bindings@1.1.1
+320 silly lockFile 52dd60a7-bindings-1-1-1 bindings@1.1.1
+321 silly lockFile 3e6cf8d3-bindings-1-1-0 bindings@~1.1.0
+322 silly lockFile 3e6cf8d3-bindings-1-1-0 bindings@~1.1.0
+323 silly shasum updated bytes 61440
+324 info shasum e8da6241aa06f64df2473bb2590b8c17c84c3c7e
+324 info shasum C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\tmp.tgz
+325 verbose tar unpack C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\tmp.tgz
+326 silly lockFile b361a2c3-313-0-019585050642490387-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package
+327 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package C:\Users\naokis\AppData\Roaming\npm-cache\b361a2c3-313-0-019585050642490387-package.lock
+328 silly lockFile 8e4d00e1-313-0-019585050642490387-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\tmp.tgz
+329 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\tmp.tgz C:\Users\naokis\AppData\Roaming\npm-cache\8e4d00e1-313-0-019585050642490387-tmp-tgz.lock
+330 silly gunzTarPerm modes [ '755', '644' ]
+331 silly gunzTarPerm extractEntry .gitignore
+332 silly gunzTarPerm extractEntry .npmignore
+333 silly gunzTarPerm extractEntry index.html
+334 silly gunzTarPerm extractEntry index.js
+335 silly gunzTarPerm extractEntry LICENSE
+336 silly gunzTarPerm extractEntry package.json
+337 silly gunzTarPerm extractEntry README
+338 silly gunzTarPerm extractEntry underscore-min.js
+339 silly gunzTarPerm extractEntry underscore.js
+340 silly gunzTarPerm extractEntry raw/underscore.psd
+341 verbose read json C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package\package.json
+342 silly lockFile b361a2c3-313-0-019585050642490387-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package
+343 silly lockFile b361a2c3-313-0-019585050642490387-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package
+344 silly lockFile 8e4d00e1-313-0-019585050642490387-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\tmp.tgz
+345 silly lockFile 8e4d00e1-313-0-019585050642490387-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\tmp.tgz
+346 verbose from cache C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package\package.json
+347 verbose tar pack [ 'C:\\Users\\naokis\\AppData\\Roaming\\npm-cache\\underscore\\1.2.4\\package.tgz',
+347 verbose tar pack   'C:\\Users\\naokis\\AppData\\Local\\Temp\\npm-10784\\1424180688313-0.019585050642490387\\package' ]
+348 verbose tarball C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+349 verbose folder C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package
+350 silly lockFile b361a2c3-313-0-019585050642490387-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package
+351 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package C:\Users\naokis\AppData\Roaming\npm-cache\b361a2c3-313-0-019585050642490387-package.lock
+352 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+353 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\a05a4e8c-che-underscore-1-2-4-package-tgz.lock
+354 silly lockFile b361a2c3-313-0-019585050642490387-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package
+355 silly lockFile b361a2c3-313-0-019585050642490387-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688313-0.019585050642490387\package
+356 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+357 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+358 silly lockFile d5cc8157-m-cache-underscore-1-2-4-package C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package
+359 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package C:\Users\naokis\AppData\Roaming\npm-cache\d5cc8157-m-cache-underscore-1-2-4-package.lock
+360 silly lockFile d5cc8157-m-cache-underscore-1-2-4-package C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package
+361 silly lockFile d5cc8157-m-cache-underscore-1-2-4-package C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package
+362 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+363 silly lockFile d5cc8157-m-cache-underscore-1-2-4-package C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package
+364 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package C:\Users\naokis\AppData\Roaming\npm-cache\d5cc8157-m-cache-underscore-1-2-4-package.lock
+365 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+366 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\a05a4e8c-che-underscore-1-2-4-package-tgz.lock
+367 silly gunzTarPerm modes [ '755', '644' ]
+368 silly gunzTarPerm extractEntry package.json
+369 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+370 silly gunzTarPerm extractEntry .npmignore
+371 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+372 silly gunzTarPerm extractEntry README
+373 silly gunzTarPerm modified mode [ 'README', 438, 420 ]
+374 silly gunzTarPerm extractEntry LICENSE
+375 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+376 silly gunzTarPerm extractEntry index.js
+377 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+378 silly gunzTarPerm extractEntry underscore-min.js
+379 silly gunzTarPerm modified mode [ 'underscore-min.js', 438, 420 ]
+380 silly gunzTarPerm extractEntry underscore.js
+381 silly gunzTarPerm modified mode [ 'underscore.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry index.html
+383 silly gunzTarPerm modified mode [ 'index.html', 438, 420 ]
+384 silly gunzTarPerm extractEntry raw/underscore.psd
+385 silly gunzTarPerm modified mode [ 'raw/underscore.psd', 438, 420 ]
+386 verbose read json C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package\package.json
+387 silly lockFile d5cc8157-m-cache-underscore-1-2-4-package C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package
+388 silly lockFile d5cc8157-m-cache-underscore-1-2-4-package C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package
+389 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+390 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+391 silly shasum updated bytes 54572
+392 info shasum 7a7d6b7cd92d9565484e63dddcb7b255a93179cb
+392 info shasum C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+393 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package\package.json
+394 verbose chmod C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz 644
+395 silly chown skipping for windows C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+396 silly lockFile fcad318b--underscore-underscore-1-2-4-tgz https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz
+397 silly lockFile fcad318b--underscore-underscore-1-2-4-tgz https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz
+398 silly lockFile 0405c947-underscore-1-2-4 underscore@1.2.4
+399 silly lockFile 0405c947-underscore-1-2-4 underscore@1.2.4
+400 http 200 https://registry.npmjs.org/coffee-script/1.3.3
+401 silly registry.get cb [ 200,
+401 silly registry.get   { date: 'Tue, 17 Feb 2015 13:44:52 GMT',
+401 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+401 silly registry.get     etag: '"CGIIHB0CWSD0UXG62ET41T36D"',
+401 silly registry.get     'content-type': 'application/json',
+401 silly registry.get     'cache-control': 'max-age=60',
+401 silly registry.get     'content-length': '1123',
+401 silly registry.get     'accept-ranges': 'bytes',
+401 silly registry.get     via: '1.1 varnish',
+401 silly registry.get     age: '0',
+401 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+401 silly registry.get     'x-cache': 'MISS',
+401 silly registry.get     'x-cache-hits': '0',
+401 silly registry.get     'x-timer': 'S1424180691.521643,VS0,VE510',
+401 silly registry.get     vary: 'Accept',
+401 silly registry.get     'keep-alive': 'timeout=10, max=50',
+401 silly registry.get     connection: 'Keep-Alive' } ]
+402 silly lockFile 1b193f6e-e-script-coffee-script-1-3-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz
+403 verbose lock https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz C:\Users\naokis\AppData\Roaming\npm-cache\1b193f6e-e-script-coffee-script-1-3-3-tgz.lock
+404 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz',
+404 verbose addRemoteTarball   '150d6b4cb522894369efed6a2101c20bc7f4a4f4' ]
+405 info retry fetch attempt 1 at 22:44:48
+406 verbose fetch to= C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\tmp.tgz
+407 http GET https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz
+408 http 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz
+409 silly shasum updated bytes 65536
+410 silly shasum updated bytes 2290
+411 info shasum 150d6b4cb522894369efed6a2101c20bc7f4a4f4
+411 info shasum C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\tmp.tgz
+412 verbose tar unpack C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\tmp.tgz
+413 silly lockFile 2c04ce7c-8630-0-07247707643546164-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package
+414 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package C:\Users\naokis\AppData\Roaming\npm-cache\2c04ce7c-8630-0-07247707643546164-package.lock
+415 silly lockFile 6c08302c-8630-0-07247707643546164-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\tmp.tgz
+416 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\tmp.tgz C:\Users\naokis\AppData\Roaming\npm-cache\6c08302c-8630-0-07247707643546164-tmp-tgz.lock
+417 silly gunzTarPerm modes [ '755', '644' ]
+418 silly gunzTarPerm extractEntry package.json
+419 silly gunzTarPerm extractEntry .npmignore
+420 silly gunzTarPerm extractEntry README
+421 silly gunzTarPerm extractEntry LICENSE
+422 silly gunzTarPerm extractEntry bin/cake
+423 silly gunzTarPerm extractEntry bin/coffee
+424 silly gunzTarPerm extractEntry CNAME
+425 silly gunzTarPerm extractEntry extras/jsl.conf
+426 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+427 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+428 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+429 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+430 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+431 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+432 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+433 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+434 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+435 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+436 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+437 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+438 http 200 https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+439 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+440 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+441 silly shasum updated bytes 1358
+442 info shasum 2f05d42b0c88b43d05ccbda10ed14aeff5699b60
+442 info shasum C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\tmp.tgz
+443 verbose tar unpack C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\tmp.tgz
+444 silly lockFile a32323c0-250-0-015929174842312932-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package
+445 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package C:\Users\naokis\AppData\Roaming\npm-cache\a32323c0-250-0-015929174842312932-package.lock
+446 silly lockFile 280ae230-250-0-015929174842312932-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\tmp.tgz
+447 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\tmp.tgz C:\Users\naokis\AppData\Roaming\npm-cache\280ae230-250-0-015929174842312932-tmp-tgz.lock
+448 silly gunzTarPerm modes [ '755', '644' ]
+449 silly gunzTarPerm extractEntry test.js
+450 silly gunzTarPerm extractEntry README.md
+451 silly gunzTarPerm extractEntry package.json
+452 silly gunzTarPerm extractEntry index.js
+453 silly gunzTarPerm extractEntry lib/repl.js
+454 silly gunzTarPerm extractEntry Rakefile
+455 verbose read json C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package\package.json
+456 silly lockFile a32323c0-250-0-015929174842312932-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package
+457 silly lockFile a32323c0-250-0-015929174842312932-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package
+458 silly lockFile 280ae230-250-0-015929174842312932-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\tmp.tgz
+459 silly lockFile 280ae230-250-0-015929174842312932-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\tmp.tgz
+460 verbose from cache C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package\package.json
+461 verbose tar pack [ 'C:\\Users\\naokis\\AppData\\Roaming\\npm-cache\\repl\\0.1.3\\package.tgz',
+461 verbose tar pack   'C:\\Users\\naokis\\AppData\\Local\\Temp\\npm-10784\\1424180688250-0.015929174842312932\\package' ]
+462 verbose tarball C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+463 verbose folder C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package
+464 silly lockFile a32323c0-250-0-015929174842312932-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package
+465 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package C:\Users\naokis\AppData\Roaming\npm-cache\a32323c0-250-0-015929174842312932-package.lock
+466 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+467 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\04919c56-npm-cache-repl-0-1-3-package-tgz.lock
+468 silly lockFile a32323c0-250-0-015929174842312932-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package
+469 silly lockFile a32323c0-250-0-015929174842312932-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688250-0.015929174842312932\package
+470 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+471 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+472 silly lockFile 1f6410ac-ing-npm-cache-repl-0-1-3-package C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package
+473 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package C:\Users\naokis\AppData\Roaming\npm-cache\1f6410ac-ing-npm-cache-repl-0-1-3-package.lock
+474 silly lockFile 1f6410ac-ing-npm-cache-repl-0-1-3-package C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package
+475 silly lockFile 1f6410ac-ing-npm-cache-repl-0-1-3-package C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package
+476 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+477 silly lockFile 1f6410ac-ing-npm-cache-repl-0-1-3-package C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package
+478 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package C:\Users\naokis\AppData\Roaming\npm-cache\1f6410ac-ing-npm-cache-repl-0-1-3-package.lock
+479 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+480 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\04919c56-npm-cache-repl-0-1-3-package-tgz.lock
+481 silly gunzTarPerm modes [ '755', '644' ]
+482 silly gunzTarPerm extractEntry package.json
+483 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+484 silly gunzTarPerm extractEntry README.md
+485 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+486 silly gunzTarPerm extractEntry index.js
+487 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+488 silly gunzTarPerm extractEntry test.js
+489 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+490 silly gunzTarPerm extractEntry lib/repl.js
+491 silly gunzTarPerm modified mode [ 'lib/repl.js', 438, 420 ]
+492 verbose read json C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package\package.json
+493 silly lockFile 1f6410ac-ing-npm-cache-repl-0-1-3-package C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package
+494 silly lockFile 1f6410ac-ing-npm-cache-repl-0-1-3-package C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package
+495 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+496 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+497 silly shasum updated bytes 1330
+498 info shasum f73f3620ca778c922bd58b763201311bcc4ec85a
+498 info shasum C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+499 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package\package.json
+500 verbose chmod C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz 644
+501 silly chown skipping for windows C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+502 silly lockFile 5bb20ce6-ry-npmjs-org-repl-repl-0-1-3-tgz https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+503 silly lockFile 5bb20ce6-ry-npmjs-org-repl-repl-0-1-3-tgz https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+504 silly lockFile 7750b660-repl-0-1-3 repl@0.1.3
+505 silly lockFile 7750b660-repl-0-1-3 repl@0.1.3
+506 verbose read json C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package\package.json
+507 silly lockFile 2c04ce7c-8630-0-07247707643546164-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package
+508 silly lockFile 2c04ce7c-8630-0-07247707643546164-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package
+509 silly lockFile 6c08302c-8630-0-07247707643546164-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\tmp.tgz
+510 silly lockFile 6c08302c-8630-0-07247707643546164-tmp-tgz C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\tmp.tgz
+511 verbose from cache C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package\package.json
+512 verbose tar pack [ 'C:\\Users\\naokis\\AppData\\Roaming\\npm-cache\\coffee-script\\1.3.3\\package.tgz',
+512 verbose tar pack   'C:\\Users\\naokis\\AppData\\Local\\Temp\\npm-10784\\1424180688630-0.07247707643546164\\package' ]
+513 verbose tarball C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+514 verbose folder C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package
+515 silly lockFile 2c04ce7c-8630-0-07247707643546164-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package
+516 verbose lock C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package C:\Users\naokis\AppData\Roaming\npm-cache\2c04ce7c-8630-0-07247707643546164-package.lock
+517 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+518 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\2bb92325--coffee-script-1-3-3-package-tgz.lock
+519 silly lockFile 2c04ce7c-8630-0-07247707643546164-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package
+520 silly lockFile 2c04ce7c-8630-0-07247707643546164-package C:\Users\naokis\AppData\Local\Temp\npm-10784\1424180688630-0.07247707643546164\package
+521 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+522 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+523 silly lockFile abfdfffe-ache-coffee-script-1-3-3-package C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package
+524 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package C:\Users\naokis\AppData\Roaming\npm-cache\abfdfffe-ache-coffee-script-1-3-3-package.lock
+525 silly lockFile abfdfffe-ache-coffee-script-1-3-3-package C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package
+526 silly lockFile abfdfffe-ache-coffee-script-1-3-3-package C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package
+527 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+528 silly lockFile abfdfffe-ache-coffee-script-1-3-3-package C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package
+529 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package C:\Users\naokis\AppData\Roaming\npm-cache\abfdfffe-ache-coffee-script-1-3-3-package.lock
+530 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+531 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\2bb92325--coffee-script-1-3-3-package-tgz.lock
+532 silly gunzTarPerm modes [ '755', '644' ]
+533 silly gunzTarPerm extractEntry package.json
+534 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+535 silly gunzTarPerm extractEntry .npmignore
+536 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+537 silly gunzTarPerm extractEntry README
+538 silly gunzTarPerm modified mode [ 'README', 438, 420 ]
+539 silly gunzTarPerm extractEntry LICENSE
+540 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+541 silly gunzTarPerm extractEntry bin/cake
+542 silly gunzTarPerm modified mode [ 'bin/cake', 438, 420 ]
+543 silly gunzTarPerm extractEntry bin/coffee
+544 silly gunzTarPerm modified mode [ 'bin/coffee', 438, 420 ]
+545 silly gunzTarPerm extractEntry CNAME
+546 silly gunzTarPerm modified mode [ 'CNAME', 438, 420 ]
+547 silly gunzTarPerm extractEntry extras/jsl.conf
+548 silly gunzTarPerm modified mode [ 'extras/jsl.conf', 438, 420 ]
+549 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+550 silly gunzTarPerm modified mode [ 'lib/coffee-script/browser.js', 438, 420 ]
+551 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+552 silly gunzTarPerm modified mode [ 'lib/coffee-script/command.js', 438, 420 ]
+553 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+554 silly gunzTarPerm modified mode [ 'lib/coffee-script/grammar.js', 438, 420 ]
+555 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+556 silly gunzTarPerm modified mode [ 'lib/coffee-script/helpers.js', 438, 420 ]
+557 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+558 silly gunzTarPerm modified mode [ 'lib/coffee-script/index.js', 438, 420 ]
+559 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+560 silly gunzTarPerm modified mode [ 'lib/coffee-script/coffee-script.js', 438, 420 ]
+561 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+562 silly gunzTarPerm modified mode [ 'lib/coffee-script/nodes.js', 438, 420 ]
+563 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+564 silly gunzTarPerm modified mode [ 'lib/coffee-script/optparse.js', 438, 420 ]
+565 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+566 silly gunzTarPerm modified mode [ 'lib/coffee-script/parser.js', 438, 420 ]
+567 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+568 silly gunzTarPerm modified mode [ 'lib/coffee-script/repl.js', 438, 420 ]
+569 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+570 silly gunzTarPerm modified mode [ 'lib/coffee-script/rewriter.js', 438, 420 ]
+571 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+572 silly gunzTarPerm modified mode [ 'lib/coffee-script/cake.js', 438, 420 ]
+573 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+574 silly gunzTarPerm modified mode [ 'lib/coffee-script/scope.js', 438, 420 ]
+575 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+576 silly gunzTarPerm modified mode [ 'lib/coffee-script/lexer.js', 438, 420 ]
+577 silly gunzTarPerm extractEntry Rakefile
+578 silly gunzTarPerm modified mode [ 'Rakefile', 438, 420 ]
+579 verbose read json C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package\package.json
+580 silly lockFile abfdfffe-ache-coffee-script-1-3-3-package C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package
+581 silly lockFile abfdfffe-ache-coffee-script-1-3-3-package C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package
+582 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+583 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+584 silly shasum updated bytes 65536
+585 silly shasum updated bytes 2203
+586 info shasum 238afda2be5b282dce914183b23b96f00481bff0
+586 info shasum C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+587 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package\package.json
+588 verbose chmod C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz 644
+589 silly chown skipping for windows C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+590 silly lockFile 1b193f6e-e-script-coffee-script-1-3-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz
+591 silly lockFile 1b193f6e-e-script-coffee-script-1-3-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz
+592 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+593 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+594 silly resolved [ { name: 'bindings',
+594 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+594 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+594 silly resolved     version: '1.1.1',
+594 silly resolved     author:
+594 silly resolved      { name: 'Nathan Rajlich',
+594 silly resolved        email: 'nathan@tootallnate.net',
+594 silly resolved        url: 'http://tootallnate.net' },
+594 silly resolved     repository:
+594 silly resolved      { type: 'git',
+594 silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+594 silly resolved     main: './bindings.js',
+594 silly resolved     readme: 'node-bindings\n=============\n### Helper module for loading your native module\'s .node file\n\nThis is a helper module for authors of Node.js native addon modules.\nIt is basically the "swiss army knife" of `require()`ing your native module\'s\n`.node` file.\n\nThroughout the course of Node\'s native addon history, addons have ended up being\ncompiled in a variety of different places, depending on which build tool and which\nversion of node was used. To make matters worse, now the _gyp_ build tool can\nproduce either a _Release_ or _Debug_ build, each being built into different\nlocations.\n\nThis module checks _all_ the possible locations that a native addon would be built\nat, and returns the first one that loads successfully.\n\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install bindings\n```\n\nOr add it to the `"dependencies"` section of your _package.json_ file.\n\n\nExample\n-------\n\n`require()`ing the proper bindings file for the current node version, platform\nand architecture is as simple as:\n\n``` js\nvar bindings = require(\'bindings\')(\'binding.node\')\n\n// Use your bindings defined in your C files\nbindings.your_c_function()\n```\n\n\nNice Error Output\n-----------------\n\nWhen the `.node` file could not be loaded, `node-bindings` throws an Error with\na nice error message telling you exactly what was tried. You can also check the\n`err.tries` Array property.\n\n```\nError: Could not load the bindings file. Tried:\n → /Users/nrajlich/ref/build/binding.node\n → /Users/nrajlich/ref/build/Debug/binding.node\n → /Users/nrajlich/ref/build/Release/binding.node\n → /Users/nrajlich/ref/out/Debug/binding.node\n → /Users/nrajlich/ref/Debug/binding.node\n → /Users/nrajlich/ref/out/Release/binding.node\n → /Users/nrajlich/ref/Release/binding.node\n → /Users/nrajlich/ref/build/default/binding.node\n → /Users/nrajlich/ref/compiled/0.8.2/darwin/x64/binding.node\n    at bindings (/Users/nrajlich/ref/node_modules/bindings/bindings.js:84:13)\n    at Object.<anonymous> (/Users/nrajlich/ref/lib/ref.js:5:47)\n    at Module._compile (module.js:449:26)\n    at Object.Module._extensions..js (module.js:467:10)\n    at Module.load (module.js:356:32)\n    at Function.Module._load (module.js:312:12)\n    ...\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+594 silly resolved     readmeFilename: 'README.md',
+594 silly resolved     _id: 'bindings@1.1.1',
+594 silly resolved     dist: { shasum: 'a6c9e2e3bcb6f1f94922e6cafeee6edb3491b205' },
+594 silly resolved     _from: 'bindings@~1.1.0',
+594 silly resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz' },
+594 silly resolved   { name: 'underscore',
+594 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+594 silly resolved     homepage: 'http://documentcloud.github.com/underscore/',
+594 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+594 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+594 silly resolved     contributors: [],
+594 silly resolved     repository:
+594 silly resolved      { type: 'git',
+594 silly resolved        url: 'git://github.com/documentcloud/underscore.git' },
+594 silly resolved     main: 'underscore.js',
+594 silly resolved     version: '1.2.4',
+594 silly resolved     readme: '                   __                                                      \n                  /\\ \\                                                     \n __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __    \n/\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\  \n\\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  \n \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\\n  \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\n                                                                           \n                                                                           \n\nUnderscore.js is a utility-belt library for JavaScript that provides \nsupport for the usual functional suspects (each, map, reduce, filter...) \nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://documentcloud.github.com/underscore/\n\nMany thanks to our contributors:\nhttps://github.com/documentcloud/underscore/contributors\n',
+594 silly resolved     readmeFilename: 'README',
+594 silly resolved     _id: 'underscore@1.2.4',
+594 silly resolved     dist: { shasum: '7a7d6b7cd92d9565484e63dddcb7b255a93179cb' },
+594 silly resolved     _from: 'underscore@1.2.4',
+594 silly resolved     _resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz' },
+594 silly resolved   { name: 'repl',
+594 silly resolved     author: { name: 'Firejune', url: 'http://firejune.com/' },
+594 silly resolved     version: '0.1.3',
+594 silly resolved     description: 'A simple fast template libray.',
+594 silly resolved     homepage: 'http://github.com/firejune/repl',
+594 silly resolved     keywords: [ 'template', 'engine', 'repl' ],
+594 silly resolved     main: 'lib/template',
+594 silly resolved     directories: { lib: 'lib' },
+594 silly resolved     repository: { type: 'git', url: 'git://github.com/firejune/repl.git' },
+594 silly resolved     licenses: [ [Object] ],
+594 silly resolved     bugs: { url: 'http://github.com/firejune/repl/issues' },
+594 silly resolved     engines: { node: '>= 0.4.0' },
+594 silly resolved     readme: '# Repl\n\nRepl is a lightweight template library in NodeJS.\n\n* Tiny!\n* Fast!\n* Easy!\n* Useful!\n \n \n### Installing\n\nGIT\n\n    $ git clone https://github.com/firejune/repl.git\n\nNPM\n\n    $ npm install repl\n\n\n### Code\n\n    require(\'repl\');\n    \n    \n    /** \n     * Use case 2\n     */\n    var context = {\n        href: \'http://firejune.com\'\n      , text: \'firejune.com\'\n    };\n    \n    var anchor = \'<a href="{href}">{text}</a>\';\n    \n    console.log(anchor.repl(context));\n    //-> <a href="http://firejune.com">firejune.com</a>\n    \n    \n    /** \n     * Use case 2\n     */\n    \n    var chat = {\n        user: "Firejune"\n      , message: {\n          text: "hello world"\n        , date: "Fri Jul 16 16:58:46 +0000 2010"\n      }\n    };\n    \n    var row = [\n        \'<p>\', \n          \'<strong>{user}:</strong>\',\n          \'<span>{message.text}</span>\',\n          \'<em>{message.date}</em>\',\n        \'</p>\'\n    ].join(\'\');\n    \n    console.log(row.repl(chat));\n    //-> <p><strong>Firejune:</strong><span>hello world</span><em>Fri Jul 16 16:58:46 +0000 2010</em></p>\n\n\nHave fun!\n\n\n### License\n\nMIT <3\n',
+594 silly resolved     readmeFilename: 'README.md',
+594 silly resolved     _id: 'repl@0.1.3',
+594 silly resolved     dist: { shasum: 'f73f3620ca778c922bd58b763201311bcc4ec85a' },
+594 silly resolved     _from: 'repl@0.1.3',
+594 silly resolved     _resolved: 'https://registry.npmjs.org/repl/-/repl-0.1.3.tgz' },
+594 silly resolved   { name: 'coffee-script',
+594 silly resolved     description: 'Unfancy JavaScript',
+594 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+594 silly resolved     author: { name: 'Jeremy Ashkenas' },
+594 silly resolved     version: '1.3.3',
+594 silly resolved     licenses: [ [Object] ],
+594 silly resolved     engines: { node: '>=0.4.0' },
+594 silly resolved     directories: { lib: './lib/coffee-script' },
+594 silly resolved     main: './lib/coffee-script/coffee-script',
+594 silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+594 silly resolved     homepage: 'http://coffeescript.org',
+594 silly resolved     bugs: 'https://github.com/jashkenas/coffee-script/issues',
+594 silly resolved     repository:
+594 silly resolved      { type: 'git',
+594 silly resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+594 silly resolved     devDependencies: { 'uglify-js': '>=1.0.0', jison: '>=0.2.0' },
+594 silly resolved     readme: '\n            {\n         }   }   {\n        {   {  }  }\n         }   }{  {\n        {  }{  }  }                    _____       __  __\n       ( }{ }{  { )                   / ____|     / _|/ _|\n     .- { { }  { }} -.               | |     ___ | |_| |_ ___  ___\n    (  ( } { } { } }  )              | |    / _ \\|  _|  _/ _ \\/ _ \\\n    |`-..________ ..-\'|              | |___| (_) | | | ||  __/  __/\n    |                 |               \\_____\\___/|_| |_| \\___|\\___|\n    |                 ;--.\n    |                (__  \\            _____           _       _\n    |                 | )  )          / ____|         (_)     | |\n    |                 |/  /          | (___   ___ _ __ _ _ __ | |_\n    |                 (  /            \\___ \\ / __| \'__| | \'_ \\| __|\n    |                 |/              ____) | (__| |  | | |_) | |_\n    |                 |              |_____/ \\___|_|  |_| .__/ \\__|\n     `-.._________..-\'                                  | |\n                                                        |_|\n\n\n  CoffeeScript is a little language that compiles into JavaScript.\n\n  Install Node.js, and then the CoffeeScript compiler:\n  sudo bin/cake install\n\n  Or, if you have the Node Package Manager installed:\n  npm install -g coffee-script\n  (Leave off the -g if you don\'t wish to install globally.)\n\n  Execute a script:\n  coffee /path/to/script.coffee\n\n  Compile a script:\n  coffee -c /path/to/script.coffee\n\n  For documentation, usage, and examples, see:\n  http://coffeescript.org/\n\n  To suggest a feature, report a bug, or general discussion:\n  http://github.com/jashkenas/coffee-script/issues/\n\n  If you\'d like to chat, drop by #coffeescript on Freenode IRC,\n  or on webchat.freenode.net.\n\n  The source repository:\n  git://github.com/jashkenas/coffee-script.git\n\n  All contributors are listed here:\n  http://github.com/jashkenas/coffee-script/contributors\n',
+594 silly resolved     readmeFilename: 'README',
+594 silly resolved     _id: 'coffee-script@1.3.3',
+594 silly resolved     dist: { shasum: '238afda2be5b282dce914183b23b96f00481bff0' },
+594 silly resolved     _from: 'coffee-script@1.3.3',
+594 silly resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz' } ]
+595 info install bindings@1.1.1 into C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+596 info install underscore@1.2.4 into C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+597 info install repl@0.1.3 into C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+598 info install coffee-script@1.3.3 into C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+599 info installOne bindings@1.1.1
+600 info installOne underscore@1.2.4
+601 info installOne repl@0.1.3
+602 info installOne coffee-script@1.3.3
+603 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package\package.json
+604 info C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings unbuild
+605 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings\package.json
+606 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package\package.json
+607 info C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore unbuild
+608 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore\package.json
+609 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package\package.json
+610 info C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl unbuild
+611 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl\package.json
+612 verbose from cache C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package\package.json
+613 info C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script unbuild
+614 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script\package.json
+615 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+616 silly lockFile 52ccc1f6-odules-i2c-node-modules-bindings C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings
+617 verbose lock C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings C:\Users\naokis\AppData\Roaming\npm-cache\52ccc1f6-odules-i2c-node-modules-bindings.lock
+618 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+619 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\867e0d70-cache-bindings-1-1-1-package-tgz.lock
+620 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+621 silly lockFile bea73d3a-ules-i2c-node-modules-underscore C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore
+622 verbose lock C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore C:\Users\naokis\AppData\Roaming\npm-cache\bea73d3a-ules-i2c-node-modules-underscore.lock
+623 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+624 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\a05a4e8c-che-underscore-1-2-4-package-tgz.lock
+625 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+626 silly lockFile 95f6444e-de-modules-i2c-node-modules-repl C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl
+627 verbose lock C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl C:\Users\naokis\AppData\Roaming\npm-cache\95f6444e-de-modules-i2c-node-modules-repl.lock
+628 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+629 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\04919c56-npm-cache-repl-0-1-3-package-tgz.lock
+630 verbose tar unpack C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+631 silly lockFile e288ba61-s-i2c-node-modules-coffee-script C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script
+632 verbose lock C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script C:\Users\naokis\AppData\Roaming\npm-cache\e288ba61-s-i2c-node-modules-coffee-script.lock
+633 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+634 verbose lock C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz C:\Users\naokis\AppData\Roaming\npm-cache\2bb92325--coffee-script-1-3-3-package-tgz.lock
+635 silly gunzTarPerm modes [ '755', '644' ]
+636 silly gunzTarPerm modes [ '755', '644' ]
+637 silly gunzTarPerm modes [ '755', '644' ]
+638 silly gunzTarPerm modes [ '755', '644' ]
+639 silly gunzTarPerm extractEntry package.json
+640 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+641 silly gunzTarPerm extractEntry package.json
+642 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+643 silly gunzTarPerm extractEntry package.json
+644 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+645 silly gunzTarPerm extractEntry package.json
+646 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+647 silly gunzTarPerm extractEntry README.md
+648 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+649 silly gunzTarPerm extractEntry bindings.js
+650 silly gunzTarPerm modified mode [ 'bindings.js', 438, 420 ]
+651 silly gunzTarPerm extractEntry README.md
+652 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+653 silly gunzTarPerm extractEntry index.js
+654 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+655 silly gunzTarPerm extractEntry .npmignore
+656 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+657 silly gunzTarPerm extractEntry README
+658 silly gunzTarPerm modified mode [ 'README', 438, 420 ]
+659 silly gunzTarPerm extractEntry .npmignore
+660 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+661 silly gunzTarPerm extractEntry README
+662 silly gunzTarPerm modified mode [ 'README', 438, 420 ]
+663 silly gunzTarPerm extractEntry test.js
+664 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+665 silly gunzTarPerm extractEntry lib/repl.js
+666 silly gunzTarPerm modified mode [ 'lib/repl.js', 438, 420 ]
+667 silly gunzTarPerm extractEntry LICENSE
+668 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+669 silly gunzTarPerm extractEntry index.js
+670 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+671 silly gunzTarPerm extractEntry LICENSE
+672 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+673 silly gunzTarPerm extractEntry bin/cake
+674 silly gunzTarPerm modified mode [ 'bin/cake', 438, 420 ]
+675 silly gunzTarPerm extractEntry underscore-min.js
+676 silly gunzTarPerm modified mode [ 'underscore-min.js', 438, 420 ]
+677 silly gunzTarPerm extractEntry underscore.js
+678 silly gunzTarPerm modified mode [ 'underscore.js', 438, 420 ]
+679 silly gunzTarPerm extractEntry index.html
+680 silly gunzTarPerm modified mode [ 'index.html', 438, 420 ]
+681 silly gunzTarPerm extractEntry raw/underscore.psd
+682 silly gunzTarPerm modified mode [ 'raw/underscore.psd', 438, 420 ]
+683 silly gunzTarPerm extractEntry bin/coffee
+684 silly gunzTarPerm modified mode [ 'bin/coffee', 438, 420 ]
+685 silly gunzTarPerm extractEntry CNAME
+686 silly gunzTarPerm modified mode [ 'CNAME', 438, 420 ]
+687 silly gunzTarPerm extractEntry extras/jsl.conf
+688 silly gunzTarPerm modified mode [ 'extras/jsl.conf', 438, 420 ]
+689 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+690 silly gunzTarPerm modified mode [ 'lib/coffee-script/browser.js', 438, 420 ]
+691 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings\package.json
+692 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+693 silly gunzTarPerm modified mode [ 'lib/coffee-script/command.js', 438, 420 ]
+694 silly lockFile 52ccc1f6-odules-i2c-node-modules-bindings C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings
+695 silly lockFile 52ccc1f6-odules-i2c-node-modules-bindings C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings
+696 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+697 silly lockFile 867e0d70-cache-bindings-1-1-1-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+698 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl\package.json
+699 info preinstall bindings@1.1.1
+700 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+701 silly gunzTarPerm modified mode [ 'lib/coffee-script/grammar.js', 438, 420 ]
+702 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+703 silly gunzTarPerm modified mode [ 'lib/coffee-script/helpers.js', 438, 420 ]
+704 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings\package.json
+705 verbose readDependencies using package.json deps
+706 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings\package.json
+707 verbose readDependencies using package.json deps
+708 silly resolved []
+709 verbose about to build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings
+710 info build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings
+711 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\bindings\package.json
+712 verbose linkStuff [ false,
+712 verbose linkStuff   false,
+712 verbose linkStuff   false,
+712 verbose linkStuff   'C:\\work\\HTML5応用\\WoT\\オープンハードウェア\\sensible\\apps\\node\\baby-monitor2\\node_modules\\i2c\\node_modules' ]
+713 info linkStuff bindings@1.1.1
+714 verbose linkBins bindings@1.1.1
+715 verbose linkMans bindings@1.1.1
+716 verbose rebuildBundles bindings@1.1.1
+717 silly lockFile 95f6444e-de-modules-i2c-node-modules-repl C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl
+718 silly lockFile 95f6444e-de-modules-i2c-node-modules-repl C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl
+719 info install bindings@1.1.1
+720 info postinstall bindings@1.1.1
+721 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+722 silly lockFile 04919c56-npm-cache-repl-0-1-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\repl\0.1.3\package.tgz
+723 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+724 silly gunzTarPerm modified mode [ 'lib/coffee-script/index.js', 438, 420 ]
+725 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+726 silly gunzTarPerm modified mode [ 'lib/coffee-script/coffee-script.js', 438, 420 ]
+727 info preinstall repl@0.1.3
+728 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl\package.json
+729 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+730 silly gunzTarPerm modified mode [ 'lib/coffee-script/nodes.js', 438, 420 ]
+731 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+732 silly gunzTarPerm modified mode [ 'lib/coffee-script/optparse.js', 438, 420 ]
+733 verbose readDependencies using package.json deps
+734 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl\package.json
+735 verbose readDependencies using package.json deps
+736 silly resolved []
+737 verbose about to build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl
+738 info build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl
+739 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\repl\package.json
+740 verbose linkStuff [ false,
+740 verbose linkStuff   false,
+740 verbose linkStuff   false,
+740 verbose linkStuff   'C:\\work\\HTML5応用\\WoT\\オープンハードウェア\\sensible\\apps\\node\\baby-monitor2\\node_modules\\i2c\\node_modules' ]
+741 info linkStuff repl@0.1.3
+742 verbose linkBins repl@0.1.3
+743 verbose linkMans repl@0.1.3
+744 verbose rebuildBundles repl@0.1.3
+745 info install repl@0.1.3
+746 info postinstall repl@0.1.3
+747 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+748 silly gunzTarPerm modified mode [ 'lib/coffee-script/parser.js', 438, 420 ]
+749 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+750 silly gunzTarPerm modified mode [ 'lib/coffee-script/repl.js', 438, 420 ]
+751 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+752 silly gunzTarPerm modified mode [ 'lib/coffee-script/rewriter.js', 438, 420 ]
+753 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+754 silly gunzTarPerm modified mode [ 'lib/coffee-script/cake.js', 438, 420 ]
+755 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+756 silly gunzTarPerm modified mode [ 'lib/coffee-script/scope.js', 438, 420 ]
+757 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+758 silly gunzTarPerm modified mode [ 'lib/coffee-script/lexer.js', 438, 420 ]
+759 silly gunzTarPerm extractEntry Rakefile
+760 silly gunzTarPerm modified mode [ 'Rakefile', 438, 420 ]
+761 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore\package.json
+762 silly lockFile bea73d3a-ules-i2c-node-modules-underscore C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore
+763 silly lockFile bea73d3a-ules-i2c-node-modules-underscore C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore
+764 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+765 silly lockFile a05a4e8c-che-underscore-1-2-4-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\underscore\1.2.4\package.tgz
+766 info preinstall underscore@1.2.4
+767 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore\package.json
+768 verbose readDependencies using package.json deps
+769 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore\package.json
+770 verbose readDependencies using package.json deps
+771 silly resolved []
+772 verbose about to build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore
+773 info build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore
+774 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\underscore\package.json
+775 verbose linkStuff [ false,
+775 verbose linkStuff   false,
+775 verbose linkStuff   false,
+775 verbose linkStuff   'C:\\work\\HTML5応用\\WoT\\オープンハードウェア\\sensible\\apps\\node\\baby-monitor2\\node_modules\\i2c\\node_modules' ]
+776 info linkStuff underscore@1.2.4
+777 verbose linkBins underscore@1.2.4
+778 verbose linkMans underscore@1.2.4
+779 verbose rebuildBundles underscore@1.2.4
+780 info install underscore@1.2.4
+781 info postinstall underscore@1.2.4
+782 verbose read json C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script\package.json
+783 silly lockFile e288ba61-s-i2c-node-modules-coffee-script C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script
+784 silly lockFile e288ba61-s-i2c-node-modules-coffee-script C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script
+785 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+786 silly lockFile 2bb92325--coffee-script-1-3-3-package-tgz C:\Users\naokis\AppData\Roaming\npm-cache\coffee-script\1.3.3\package.tgz
+787 info preinstall coffee-script@1.3.3
+788 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script\package.json
+789 verbose readDependencies using package.json deps
+790 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script\package.json
+791 verbose readDependencies using package.json deps
+792 silly resolved []
+793 verbose about to build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script
+794 info build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script
+795 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\node_modules\coffee-script\package.json
+796 verbose linkStuff [ false,
+796 verbose linkStuff   false,
+796 verbose linkStuff   false,
+796 verbose linkStuff   'C:\\work\\HTML5応用\\WoT\\オープンハードウェア\\sensible\\apps\\node\\baby-monitor2\\node_modules\\i2c\\node_modules' ]
+797 info linkStuff coffee-script@1.3.3
+798 verbose linkBins coffee-script@1.3.3
+799 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+799 verbose link bins   'C:\\work\\HTML5応用\\WoT\\オープンハードウェア\\sensible\\apps\\node\\baby-monitor2\\node_modules\\i2c\\node_modules\\.bin',
+799 verbose link bins   false ]
+800 verbose linkMans coffee-script@1.3.3
+801 verbose rebuildBundles coffee-script@1.3.3
+802 info install coffee-script@1.3.3
+803 info postinstall coffee-script@1.3.3
+804 verbose about to build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+805 info build C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c
+806 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\package.json
+807 verbose linkStuff [ false,
+807 verbose linkStuff   false,
+807 verbose linkStuff   false,
+807 verbose linkStuff   'C:\\work\\HTML5応用\\WoT\\オープンハードウェア\\sensible\\apps\\node\\baby-monitor2\\node_modules' ]
+808 info linkStuff i2c@0.1.8
+809 verbose linkBins i2c@0.1.8
+810 verbose linkMans i2c@0.1.8
+811 verbose rebuildBundles i2c@0.1.8
+812 verbose rebuildBundles [ '.bin', 'bindings', 'coffee-script', 'repl', 'underscore' ]
+813 info install i2c@0.1.8
+814 verbose unsafe-perm in lifecycle true
+815 silly exec cmd "/c" "node-gyp rebuild"
+816 silly cmd,/c,node-gyp rebuild,C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c spawning
+817 info i2c@0.1.8 Failed to exec install script
+818 info C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c unbuild
+819 verbose from cache C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules\i2c\package.json
+820 info preuninstall i2c@0.1.8
+821 info uninstall i2c@0.1.8
+822 verbose true,C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules,C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2\node_modules unbuild i2c@0.1.8
+823 info postuninstall i2c@0.1.8
+824 error i2c@0.1.8 install: `node-gyp rebuild`
+824 error `cmd "/c" "node-gyp rebuild"` failed with 1
+825 error Failed at the i2c@0.1.8 install script.
+825 error This is most likely a problem with the i2c package,
+825 error not with npm itself.
+825 error Tell the author that this fails on your system:
+825 error     node-gyp rebuild
+825 error You can get their info via:
+825 error     npm owner ls i2c
+825 error There is likely additional logging output above.
+826 error System Windows_NT 6.1.7601
+827 error command "C:\\nodejs\\\\node.exe" "C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "i2c"
+828 error cwd C:\work\HTML5応用\WoT\オープンハードウェア\sensible\apps\node\baby-monitor2
+829 error node -v v0.10.2
+830 error npm -v 1.2.15
+831 error code ELIFECYCLE
+832 verbose exit [ 1, true ]
