@@ -71,74 +71,38 @@ if (typeof (require) == "function")
 //---naokis modify for lantern demo 
 var lantern = new Object();
 
-lantern.tetrisCmd = null;
-lantern.mode = "play";
-
-lantern.left = function(inRequest, inDelegate, inCallback){
-  console.log("get left command");
-  lantern.tetrisCmd = "left";
-  console.log(lantern.tetrisCmd);
-  
-  var response = new Object();
-  response.type = "json";
-  response.object = {result:"success"};
-  console.log(JSON.stringify(response.object));
-  
-  inCallback (response);
-};
-
-lantern.right = function(inRequest, inDelegate, inCallback){
-  console.log("get right command");
-  lantern.tetrisCmd = "right";
-  
-  var response = new Object();
-  response.type = "json";
-  response.object = {result:"success"};
-  console.log(JSON.stringify(response.object));
-  
-  inCallback (response);
-};
-
-lantern.auto = function(inRequest, inDelegate, inCallback){
-  console.log("get auto command");
-  lantern.tetrisCmd = "auto";
-  if(lantern.mode=="play"){
-    lantern.mode = "auto";
-  }else if(lantern.mode == "auto"){
-    lantern.mode = "play";
-  }
-  var response = new Object();
-  response.type = "json";
-  response.object = {result:"success"};
-  console.log(JSON.stringify(response.object));
-  
-  inCallback (response);
-};
-
-lantern.checkMode = function(inRequest, inDelegate, inCallback){
-  console.log("get check mode command");
-  
-  var response = new Object();
-  response.type = "json";
-  response.object = {mode:lantern.mode};
-  console.log(JSON.stringify(response.object));
-  
-  inCallback (response);
-};
-
+/*
 lantern.checkRotation = function(inRequest, inDelegate, inCallback){
   console.log("checkRotation");
-  lantern.shell("/etc/www/revolvingLantern/checkRotation.sh /dev/ttyS0",inCallback);
+  lantern.shell("echo 'data' > /dev/ttyS0",inCallback);
   //console.log("checkRotation"+res);
   
 };
+*/
+
+lantern.transform = function(inRequest, inDelegate, inCallback){
+  console.log("transform");
+  var query = inRequest.url.search;
+  console.log(query);
+  var data = query.split("=");
+  if(data[1]){
+    console.log("data:" + data[1]);
+    lantern.shell("echo " + data + " > /dev/ttyS0",inCallback);
+  }else{
+    var response = new Object();
+    response.type = "json";
+    response.object = {result:"error"};
+    console.log(JSON.stringify(response.object));
+  
+    inCallback (response);
+  }
+  
+}
+
 lantern.action = {
-  "left":lantern.left,
-  "right":lantern.right,
-  "auto":lantern.auto,
-  "checkmode":lantern.checkMode,
-  "checkrotation":lantern.checkRotation
+  "transform":lantern.transform
 };
+
 lantern.shell = function(cmd,inCallback){
   console.log("shell command");
 
@@ -151,7 +115,7 @@ lantern.shell = function(cmd,inCallback){
       
       var response = new Object();
       response.type = "json";
-      response.object = {cmd:lantern.tetrisCmd,rotation:stdout};
+      response.object = {res:"success"};
       console.log(JSON.stringify(response.object));
       lantern.tetrisCmd = null;
       
@@ -2195,7 +2159,9 @@ sensible.RESTDispatcher.dispatchRequest = function (inRequest, inDelegate, inCal
 	var	sync = true;
 	var	response = new Object ();
 	var	pathElements = inRequest.url.pathname.toLowerCase ().split ("/");
-
+	
+	console.log("sensible.RESTDispatcher.dispatchRequest");
+	console.log(pathElements[1]);
 	if(lantern.action[pathElements[1]]){
 		console.log("lantern.action" +pathElements[1]);
 		lantern.action[pathElements[1]](inRequest, inDelegate, inCallback);
