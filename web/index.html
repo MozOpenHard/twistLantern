@@ -1,25 +1,291 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
-    <meta charset=""UTF-8"" />
-    <script type="text/javascript" src="js/main.js"></script>
-    <style type="text/css">
-      #play{
-        visibility: hidden;
-      }
-      #auto{
-        visibility: hidden;
-      }
-    </style>
+    <meta charset="utf-8"><meta name="viewport" content="width=1200px" />
+    <link rel="stylesheet" href="assets/stylesheets/index.css">
+    <script src="assets/scripts/all.min.js"></script>
+    <script src="assets/scripts/index.js"></script>
+    <title>Edit Patterns</title>
   </head>
-  <body>
-    <div>test</div>
-    <div id="play">
-      <button id="leftbtn">left</button>
-      <button id="rightbtn">right</button>
-    </div>
-    <div id="auto">
-      <button id="autobtn">start</button>
+  <body id="index">
+    <div class="container pattern">
+      <h1 class="editor">Pattern Editor</h1>
+      <ul class="scenes">
+        <li class="scene">
+          <div class="left">
+            <h1 class="label">duration</h1><img src="assets/images/pattern.png" class="status">
+            <h1 class="label_2">wait</h1>
+          </div>
+          <div class="right">
+            <form action="http://www.example.com/patterns/0/scenes/0/" method="post" class="scene-form">
+              <ul class="durations">
+                <li class="duration checked">
+                  <input type="radio" name="duration" value="0" checked class="time">
+                  <p class="val">200</p>
+                </li>
+                <li class="duration">
+                  <input type="radio" name="duration" value="1" class="time">
+                  <p class="val">400</p>
+                </li>
+                <li class="duration">
+                  <input type="radio" name="duration" value="2" class="time">
+                  <p class="val">600</p>
+                </li>
+                <li class="duration">
+                  <input type="radio" name="duration" value="3" class="time">
+                  <p class="val">800</p>
+                </li>
+                <li class="duration">
+                  <input type="radio" name="duration" value="4" class="time">
+                  <p class="val">1000</p>
+                </li>
+              </ul>
+              <ul class="layer layer-0">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="l_0" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="l_0" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="l_0" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="l_0" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="l_0" value="4" class="position">
+                </li>
+              </ul>
+              <ul class="layer layer-1">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="l_1" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="l_1" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="l_1" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="l_1" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="l_1" value="4" class="position">
+                </li>
+              </ul>
+              <ul class="layer layer-2">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="l_2" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="l_2" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="l_2" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="l_2" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="l_2" value="4" class="position">
+                </li>
+              </ul>
+              <ul class="layer layer-3">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="l_3" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="l_3" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="l_3" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="l_3" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="l_3" value="4" class="position">
+                </li>
+              </ul>
+              <ul class="layer layer-4">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="l_4" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="l_4" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="l_4" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="l_4" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="l_4" value="4" class="position">
+                </li>
+              </ul>
+              <input type="submit" class="submit">
+            </form>
+            <ul class="waits">
+              <li class="wait checked">
+                <p class="val">0</p>
+              </li>
+              <li class="wait">
+                <p class="val">500</p>
+              </li>
+              <li class="wait">
+                <p class="val">1000</p>
+              </li>
+              <li class="wait">
+                <p class="val">1500</p>
+              </li>
+              <li class="wait">
+                <p class="val">2000</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <div class="add-btn">add scene</div>
+      <div class="play-btn"></div>
+      <div class="template">
+        <li class="scene">
+          <div class="left">
+            <h1 class="label">duration</h1><img src="assets/images/pattern.png" class="status">
+            <h1 class="label">wait</h1>
+          </div>
+          <div class="right">
+            <form action="http://www.example.com/patterns/0/scenes/" method="post">
+              <ul class="durations">
+                <li class="duration checked">
+                  <input type="radio" name="duration" value="0" checked class="time">
+                  <p class="val">200</p>
+                </li>
+                <li class="duration">
+                  <input type="radio" name="duration" value="1" class="time">
+                  <p class="val">400</p>
+                </li>
+                <li class="duration">
+                  <input type="radio" name="duration" value="2" class="time">
+                  <p class="val">600</p>
+                </li>
+                <li class="duration">
+                  <input type="radio" name="duration" value="3" class="time">
+                  <p class="val">800</p>
+                </li>
+                <li class="duration">
+                  <input type="radio" name="duration" value="4" class="time">
+                  <p class="val">1000</p>
+                </li>
+              </ul>
+              <ul class="layer layer-0">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="position_0" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="position_0" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="position_0" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="position_0" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="position_0" value="4" class="position">
+                </li>
+              </ul>
+              <ul class="layer layer-1">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="position_1" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="position_1" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="position_1" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="position_1" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="position_1" value="4" class="position">
+                </li>
+              </ul>
+              <ul class="layer layer-2">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="position_2" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="position_2" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="position_2" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="position_2" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="position_2" value="4" class="position">
+                </li>
+              </ul>
+              <ul class="layer layer-3">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="position_3" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="position_3" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="position_3" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="position_3" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="position_3" value="4" class="position">
+                </li>
+              </ul>
+              <ul class="layer layer-4">
+                <li class="btn btn_0 checked">
+                  <input type="radio" name="position_4" value="0" checked class="position">
+                </li>
+                <li class="btn btn_1">
+                  <input type="radio" name="position_4" value="1" class="position">
+                </li>
+                <li class="btn btn_2">
+                  <input type="radio" name="position_4" value="2" class="position">
+                </li>
+                <li class="btn btn_3">
+                  <input type="radio" name="position_4" value="3" class="position">
+                </li>
+                <li class="btn btn_4">
+                  <input type="radio" name="position_4" value="4" class="position">
+                </li>
+              </ul>
+              <input type="submit" class="submit">
+            </form>
+            <ul class="waits">
+              <li class="wait checked">
+                <p class="val">0</p>
+              </li>
+              <li class="wait">
+                <p class="val">500</p>
+              </li>
+              <li class="wait">
+                <p class="val">1000</p>
+              </li>
+              <li class="wait">
+                <p class="val">1500</p>
+              </li>
+              <li class="wait">
+                <p class="val">2000</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </div>
     </div>
   </body>
 </html>
