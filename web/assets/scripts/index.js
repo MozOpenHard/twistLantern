@@ -19,11 +19,11 @@ $.getJSON("data/data.json", function(data) {
     datum = data[_i];
     _results.push(json_data.push(datum));
   }
+  init(BASE_URL);
   return _results;
 });
 
 $(function() {
-  init(BASE_URL);
   $(document).on("click touch", ".btn", function(event) {
     var c_p, checked_duration, checked_positions, checked_wait, current_layer, duration, name, post_url, previous_column, previous_position, radio, scene, selector, target, target_radio, val, value, wait, _i, _len;
     target = $(this);
