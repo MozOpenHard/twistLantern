@@ -1,4 +1,4 @@
-var YOSHINA, append_value, base_url, calc_id, json_data, make_url, post_positions, servo_ids, timers;
+var BASE_URL, YOSHINA, append_value, base_url, calc_id, init, init_params, json_data, make_init_url, make_url, post_positions, servo_ids, timers;
 
 // base_url = "http://www.example.com/patterns/0/scenes/";
 
@@ -6,9 +6,11 @@ timers = [];
 
 json_data = [];
 
-servo_ids = [0, 0, 0, 1, 1];
+servo_ids = [0, 0, 0, 1, 2];
 
 YOSHINA = 500;
+
+BASE_URL = "http://twist.local:3002/transform?data=";
 
 $.getJSON("data/data.json", function(data) {
   var datum, _i, _len, _results;
@@ -21,6 +23,7 @@ $.getJSON("data/data.json", function(data) {
 });
 
 $(function() {
+  init(BASE_URL);
   $(document).on("click touch", ".btn", function(event) {
     var c_p, checked_duration, checked_positions, checked_wait, current_layer, duration, name, post_url, previous_column, previous_position, radio, scene, selector, target, target_radio, val, value, wait, _i, _len;
     target = $(this);
@@ -52,7 +55,7 @@ $(function() {
         c_p = checked_positions[_i];
         append_value(val, c_p);
       }
-      post_url = make_url("http://twist.local:3002/transform?data=", val);
+      post_url = make_url(BASE_URL, val);
       return $.post(post_url);
     }
   });
@@ -138,7 +141,7 @@ post_positions = function(i) {
     c_p = checked_positions[_i];
     append_value(val, c_p);
   }
-  post_url = make_url("http://twist.local:3002/transform?data=", val);
+  post_url = make_url(BASE_URL, val);
   $.post(post_url);
   if (i > scenes.length - 2) {
     i = 0;
@@ -169,6 +172,31 @@ make_url = function(base_url, vals) {
 };
 
 calc_id = function(servo_index, val, servo_number) {
-  console.log((json_data[servo_ids[servo_index]].positions[val][servo_number] / 10) + "");
-  return (json_data[servo_ids[servo_index]].positions[val][servo_number] / 10) + "";
+  console.log(json_data[servo_ids[servo_index]].positions[val][servo_number] + "");
+  return json_data[servo_ids[servo_index]].positions[val][servo_number] + "";
+};
+
+init = function(base_url) {
+  var post_url;
+  post_url = make_init_url(base_url);
+  return $.post(post_url);
+};
+
+make_init_url = function(base_url) {
+  var url, url_0, url_1, url_2, url_3, url_4;
+  url = base_url + "9:";
+  url_0 = "0-0a" + init_params(0) + "," + "0-1a" + init_params(0) + "," + "0-2a" + init_params(0) + ",";
+  url_1 = "1-0a" + init_params(1) + "," + "1-1a" + init_params(1) + "," + "1-2a" + init_params(1) + ",";
+  url_2 = "2-0a" + init_params(2) + "," + "2-1a" + init_params(2) + "," + "2-2a" + init_params(2) + ",";
+  url_3 = "3-0a" + init_params(3) + "," + "3-1a" + init_params(3) + "," + "3-2a" + init_params(3) + ",";
+  url_4 = "4-0a" + init_params(4) + "," + "4-1a" + init_params(4) + "," + "4-2a" + init_params(4);
+  url = url + url_0 + url_1 + url_2 + url_3 + url_4;
+  console.log(url);
+  return url;
+};
+
+init_params = function(servo_index) {
+  var text;
+  text = json_data[servo_index].initial_params[0] + "b" + json_data[servo_index].initial_params[1];
+  return text;
 };
